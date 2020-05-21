@@ -1,6 +1,11 @@
 const crawler = require('../utils/crawler');
 
 async function extractProductData(url) {
+
+    if(!url.startsWith("https://www.magazineluiza.com.br")) {
+        return null;
+    }
+
     const $ = await crawler.fetchPage(url);
     let productData = {
         name: "",

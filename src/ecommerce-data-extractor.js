@@ -1,7 +1,17 @@
 const {
-    magazineluiza
+    americanas,
+    extra,
+    magazineluiza,
+    pontofrio,
+    shoptime,
+    submarino,
 } = require('./services');
 
 module.exports = {
-    magazineluiza
+    americanas,
+    extra,
+    magazineluiza,
+    pontofrio,
+    shoptime,
+    submarino,
 }
