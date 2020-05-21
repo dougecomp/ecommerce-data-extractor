@@ -1,0 +1,15 @@
+{
+  "name": "ecommerce-data-extractor",
+  "version": "1.0.0",
+  "description": "Extração de dados de produtos de sites de ecommerce brasileiros",
+  "main": "src/ecommerce-data-extractor.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
